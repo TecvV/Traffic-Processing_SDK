@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#070B25"
+    tools:context=".loading">
+
+    <EditText
+        android:id="@+id/editTextText1"
+        android:layout_width="152dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:hint="LAT_1"
+        android:inputType="text"
+        android:textColor="#60FB00"
+        android:textColorHint="#60FB00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="152dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="136dp"
+        android:ems="10"
+        android:hint="LAT_2"
+        android:inputType="text"
+        android:textColor="#60FB00"
+        android:textColorHint="#60FB00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="152dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:hint="LONG_1"
+        android:inputType="text"
+        android:textColor="#60FB00"
+        android:textColorHint="#60FB00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="152dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:hint="LONG_4"
+        android:inputType="text"
+        android:textColor="#60FB00"
+        android:textColorHint="#60FB00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.849"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="152dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:hint="LAT_4"
+        android:inputType="text"
+        android:textColor="#60FB00"
+        android:textColorHint="#60FB00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText6"
+        android:layout_width="152dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="216dp"
+        android:ems="10"
+        android:hint="LONG_3"
+        android:inputType="text"
+        android:textColor="#60FB00"
+        android:textColorHint="#60FB00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.849"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText7"
+        android:layout_width="152dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="216dp"
+        android:ems="10"
+        android:hint="LAT_3"
+        android:inputType="text"
+        android:textColor="#60FB00"
+        android:textColorHint="#60FB00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="149dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="136dp"
+        android:ems="10"
+        android:hint="LONG_2"
+        android:inputType="text"
+        android:textColor="#60FB00"
+        android:textColorHint="#60FB00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.839"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="278dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="76dp"
+        android:backgroundTint="#60FB00"
+        android:text="Enter Model details ->"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.909" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="152dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="380dp"
+        android:ems="10"
+        android:hint=" YEAR1 RS(L)"
+        android:inputType="number"
+        android:textColor="#60FB00"
+        android:textColorHint="#60FB00"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="152dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="380dp"
+        android:ems="10"
+        android:hint="YEAR2 RS(L)"
+        android:inputType="number"
+        android:textColor="#60FB00"
+        android:textColorHint="#60FB00"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumber3"
+        android:layout_width="152dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="456dp"
+        android:ems="10"
+        android:hint="YEAR3 RS(L)"
+        android:inputType="number"
+        android:textColor="#60FB00"
+        android:textColorHint="#60FB00"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumber4"
+        android:layout_width="152dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="456dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:hint="YEAR4 RS(L)"
+        android:inputType="number"
+        android:textColor="#60FB00"
+        android:textColorHint="#60FB00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumber5"
+        android:layout_width="152dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="532dp"
+        android:ems="10"
+        android:hint="YEAR5 RS(L)"
+        android:inputType="number"
+        android:textColor="#60FB00"
+        android:textColorHint="#60FB00"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,33 @@
+<!-- res/drawable/spinner_background.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <!-- Background -->
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#ffffff" /> <!-- Background color of the spinner -->
+                    <corners android:radius="8dp" /> <!-- Rounded corners -->
+                </shape>
+            </item>
+            <!-- Arrow -->
+            <item android:right="16dp" android:top="14dp" android:bottom="14dp">
+                <layer-list>
+                    <!-- Background of the arrow -->
+                    <item>
+                        <shape android:shape="rectangle">
+                            <solid android:color="#60FB00" /> <!-- Color of the arrow -->
+                        </shape>
+                    </item>
+                    <!-- Arrow itself -->
+                    <item android:width="12dp" android:height="12dp" android:gravity="center">
+                        <rotate android:fromDegrees="45">
+                            <shape android:shape="rectangle">
+                                <solid android:color="#ffffff" /> <!-- Color of the arrow's triangle -->
+                            </shape>
+                        </rotate>
+                    </item>
+                </layer-list>
+            </item>
+        </layer-list>
+    </item>
+</selector>
